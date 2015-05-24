@@ -361,11 +361,11 @@ As such, MVC relies on Pub/Sub for some of its core communication (something tha
 For developers interested in knowing more about the decoupled nature of MVC (once again, depending on the implementation), one of the goals of the pattern is to help define one-to-many relationships between a topic and its observers. When a topic changes, its observers are updated. Views and controllers have a slightly different relationship. Controllers facilitate views to respond to different user input and are an example of the Strategy pattern.
 
 
-###Summary
+###Резюмируя
 
-Having reviewed the classical MVC pattern, your should now understand how it allows developers to cleanly separate concerns in an application. You should also now appreciate how JavaScript MVC frameworks may differ in their interpretation of MVC, and how they share some of the fundamental concepts of the original pattern.   
+Рассмотрев классическую модель MVC, вы должны теперь понимать, как она помогает разработчикам прозрачно разделять ответственности в приложении. Вы также могли заметить, как JS MVC фреймворки могут отличаться своей интерпретацией MVC-модели и при этом быть очень похожими в фундаментальных концепциях на оригинальную модель.
 
-When reviewing a new JavaScript MVC/MV* framework, remember - it can be useful to step back and consider how it's opted to approach Models, Views, Controllers or other alternatives, as this can better help you grok how the framework expects to be used.
+Когда вы будете изучать новые фреймворки с JavaScript MVC/NV* моделями, помните: иногда бывает полезным оглянуться на то, как они пришли к такой альтернативе Моделям, Представлениям и Контроллерам. Это может помочь вам лучше понять работу этих фреймворков.
 
 
 ##MVP
