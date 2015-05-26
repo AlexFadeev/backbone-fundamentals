@@ -370,9 +370,9 @@ For developers interested in knowing more about the decoupled nature of MVC (onc
 
 ##MVP
 
-Model-view-presenter (MVP) is a derivative of the MVC design pattern which focuses on improving presentation logic. It originated at a company named [Taligent](http://en.wikipedia.org/wiki/Taligent) in the early 1990s while they were working on a model for a C++ CommonPoint environment. Whilst both MVC and MVP target the separation of concerns across multiple components, there are some fundamental differences between them. 
+Модель-Представление-Презентер (MVP) — это производный от MVC паттерн, который фокусируется на улучшении логики представления. Он возник в компании [Taligent](http://en.wikipedia.org/wiki/Taligent) в начале 90-х годов, когда они работали над созданием модели для окружения C++ CommonPoint. Не смотря на то, что и MVC и MVP нацелены на разделение задач между несколькими компонентами, они обладают фундаментальными различиями между собой.
 
-For the purposes of this summary we will focus on the version of MVP most suitable for web-based architectures.
+Для нашего обзора мы сосредоточимся на версии MVP, которая лучше всего подходит для создания веб-архитектур.
 
 ###Models, Views & Presenters
 
